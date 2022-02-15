@@ -42,6 +42,7 @@ function AppLoading() {
       }
       try {
         await ModelLoader.loadModels();
+        await new Promise(resolve => setTimeout(resolve, 7000));
         setReady(true);
       } catch (e) {
         console.error(e);
