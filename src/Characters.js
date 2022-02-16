@@ -8,7 +8,7 @@ export default {
     id: "bacon"
   },
   brent: {
-    name: "Brent Vatne",
+    name: "Matt",
     id: "brent"
   },
   avocoder: {
@@ -16,15 +16,15 @@ export default {
     id: "avocoder"
   },
   wheeler: {
-    name: "Wheeler",
+    name: "Rob",
     id: "wheeler"
   },
   palmer: {
-    name: "Palmer",
+    name: "Foreman",
     id: "palmer"
   },
   juwan: {
-    name: "Juwan",
+    name: "New Guy",
     id: "juwan"
   },
 };

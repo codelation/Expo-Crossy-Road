@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import { Alert, Animated, Easing, StyleSheet, View } from 'react-native';
 import { useSafeArea } from 'react-native-safe-area-context';
 
@@ -11,36 +11,24 @@ import Images from '../src/Images';
 
 // import { setGameState } from '../src/actions/game';
 
+
+function getTitle() {
+  const sayings = [
+    "That's a OSHA violation",
+    "Next time look both ways",
+    "Did not have a spotter, better luck next time",
+    "Slow and steady wins the race"
+];
+var random = Math.floor(Math.random() * sayings.length);
+console.log(random)
+return sayings[random];
+}
+
 //TODO: Make this dynamic
 const banner = [
   {
     color: '#3640eb',
-    title: 'Get Updates Subscribe Now',
-    button: {
-      onPress: _ => {
-        Alert.alert(
-          'Subscribe to our mailing list',
-          'Join our mailing list and discover the latest news from Expo and Evan Bacon.\n\n Read our privacy policy on https://github.com/EvanBacon/Expo-Crossy-Road/privacy.md',
-          [
-            { text: 'Cancel', onPress: () => console.log('Cancel Pressed!') },
-            { text: 'OK', onPress: () => console.log('OK Pressed!') },
-          ],
-          {
-            cancelable: false,
-          },
-        );
-      },
-      source: Images.button.mail,
-      style: { aspectRatio: 1.85, height: 40 },
-    },
-  },
-  {
-    color: '#368FEB',
-    title: 'Free Gift in 2h 51m',
-  },
-  {
-    color: '#36D6EB',
-    title: '44 Coins To Go',
+    title: getTitle(),
   },
 ];
 
@@ -141,7 +129,7 @@ function GameOver({ ...props }) {
                 },
               ],
             }}
-            title={val.title}
+            title={getTitle()}
             button={val.button}
           />
         ))}

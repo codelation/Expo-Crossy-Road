@@ -135,9 +135,9 @@ const styles = StyleSheet.create({
     // backgroundColor: 'transparent',
     // textAlign: 'center',
     resizeMode: 'contain',
-    maxWidth: 600,
+    maxWidth: 1000,
     width: '80%',
-    height: 300,
+    height: 500,
   },
   coins: {
     fontFamily: 'retro',
