@@ -14,7 +14,7 @@ import Images from '../src/Images';
 
 function getTitle() {
   const sayings = [
-    "That's a OSHA violation",
+    "That's an OSHA violation",
     "Next time look both ways",
     "Did not have a spotter, better luck next time",
     "Slow and steady wins the race"
