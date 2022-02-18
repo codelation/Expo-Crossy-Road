@@ -163,8 +163,8 @@ export default {
       texture: require('../assets/models/characters/bacon/bacon.png'),
     },
     wheeler: {
-      model: require('../assets/models/characters/wheeler/rob.obj'),
-      texture: require('../assets/models/characters/wheeler/rob_color.png'),
+      model: require('../assets/models/characters/wheeler/wheeler.obj'),
+      texture: require('../assets/models/characters/wheeler/wheeler.png'),
     },
     palmer: {
       model: require('../assets/models/characters/palmer/foreman.obj'),
