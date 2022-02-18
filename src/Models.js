@@ -155,24 +155,24 @@ export default {
     //   texture: require('../assets/models/characters/chicken/0.png'),
     // },
     avocoder: {
-      model: require('../assets/models/characters/avocoder/avocoder.obj'),
-      texture: require('../assets/models/characters/avocoder/avocoder.png'),
+      model: require('../assets/models/characters/rob/rob.obj'),
+      texture: require('../assets/models/characters/rob/rob.png'),
     },
     bacon: {
       model: require('../assets/models/characters/bacon/bacon.obj'),
       texture: require('../assets/models/characters/bacon/bacon.png'),
     },
     wheeler: {
-      model: require('../assets/models/characters/wheeler/wheeler.obj'),
-      texture: require('../assets/models/characters/wheeler/wheeler.png'),
+      model: require('../assets/models/characters/wheeler/rob.obj'),
+      texture: require('../assets/models/characters/wheeler/rob_color.png'),
     },
     palmer: {
-      model: require('../assets/models/characters/palmer/palmer.obj'),
-      texture: require('../assets/models/characters/palmer/palmer.png'),
+      model: require('../assets/models/characters/palmer/foreman.obj'),
+      texture: require('../assets/models/characters/palmer/foreman.png'),
     },
     juwan: {
-      model: require('../assets/models/characters/juwan/juwan.obj'),
-      texture: require('../assets/models/characters/juwan/juwan.png'),
+      model: require('../assets/models/characters/juwan/newGuy.obj'),
+      texture: require('../assets/models/characters/juwan/newGuy.png'),
     },
   }
 }

@@ -12,11 +12,11 @@ export default {
     id: "brent"
   },
   avocoder: {
-    name: "Avocoder",
+    name: "Rob",
     id: "avocoder"
   },
   wheeler: {
-    name: "Rob",
+    name: "Wheeler",
     id: "wheeler"
   },
   palmer: {
